@@ -37,9 +37,13 @@ section#login {
     height: 500px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px #000000a5;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+    display: block;
     background: #5f2c82 url(../imagens/pexels-elvis-2528118.jpg) no-repeat;
     height: 200px;
     background-size: cover;
